@@ -1,0 +1,53 @@
+body{
+    width: 99%;
+    height: 150em;
+    background-image: url(/multimedia/retina_wood.png);
+    background-attachment: fixed ;
+}
+.contenedor{
+    display: flex;
+    background-color: rgba(231, 152, 25, 0.178);
+    font-size: 30px;
+    margin-bottom: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.cajaHistorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    
+}
+
+.imgHistoria{
+    display: flex;
+    width: 50%;
+}
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+    width: 50%;
+    margin-left: 3%;
+}
+
+h2{
+    padding-left: 40%;
+}
+.texto{
+    display: flex;
+    background-color: lightskyblue;
+    padding-left: 2%;
+}
+
+
+
+
+footer{
+    background-color: lightgray;
+    height: 20%;
+}
